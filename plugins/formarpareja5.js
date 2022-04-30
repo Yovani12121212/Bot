@@ -31,7 +31,7 @@ function handler(m, { groupMetadata }) {
     let j
     do j = ps[Fl(R() * ps.length)]
     while (b === a)
-    m.reply(`*_😍Las 5 mejores parejas del grupo😍_*
+    m.reply(`*_🍁Las 5 mejores parejas del grupo🍁_*
     
 *_1.- ${toM(a)} y ${toM(b)}_*
 - Esta pareja esta destinada a estar junta 💙
@@ -46,7 +46,7 @@ function handler(m, { groupMetadata }) {
 - Estos ya se casaron en secreto 💍
 
 *_5.- ${toM(i)} y ${toM(j)}_*
-- Esta pareja se esta de luna de miel ✨🥵😍❤️`, null, {
+- Esta pareja se esta de luna de miel ✨🥵`, null, {
         contextInfo: {
             mentionedJid: [a, b, c, d, e, f, g, h, i, j]
         }
