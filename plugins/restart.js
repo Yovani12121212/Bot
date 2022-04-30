@@ -2,7 +2,7 @@ let { spawn }  = require('child_process');
 let handler  = async (m, { conn }) => {
   if (!process.send) throw 'Dont: node main.js\nDo: node index.js'
   if (global.conn.user.jid == conn.user.jid) {
-    await m.reply('*Restableciendo el Bot...*\n\n*Espere alrededor de 1 minuto*')
+    await m.reply('*Restableciendo NixiSystem...*\n\n*Espere alrededor de 1 minuto*')
     await global.DATABASE.save()
     process.send('reset')
   } else throw '*_Espere un momento antes de vover a usar este comando*'
