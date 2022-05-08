@@ -8,7 +8,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 let pp = './Menu2.jpg'
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let username = conn.getName(who)
-let vn = './media/mariana.mp3'
 let menu =`
 ╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
 ║═ *POWERED NIXISYSTEM by Mx*
@@ -352,9 +351,9 @@ let menu =`
 let mentionedJid = [who]
 conn.send3ButtonImg(m.chat, pp, menu, '©The Sky - Bot', 'Menu Simple', `#menusimple`, 'Menu de audios', `#menuaudios`, 'Grupos', `#grupos`, m, false, { contextInfo: { mentionedJid }})   
 await await await await await await conn.sendFile(m.chat, vn, 'mariana.mp3', null, m, true, {
-type: 'audioMessage', 
-ptt: true 
-})
+//type: 'audioMessage', 
+//ptt: true 
+//})
 }
 handler.command = /^(menu|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos)$/i
 handler.fail = null
