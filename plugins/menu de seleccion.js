@@ -1,11 +1,10 @@
-/*
 let fs = require('fs')
 let fetch = require('node-fetch')
 let { MessageType } = require('@adiwajshing/baileys')
 let handler = async (m, { conn, participants, args }) => {
 let vn = './media/menu.mp3'
 const rows = [
-//LO QUE SE MUESTRA + DESCRIPCION + COMANDO 
+LO QUE SE MUESTRA + DESCRIPCION + COMANDO 
 {title: 'MENU', description: "Te manda el menu del Bot", rowId:"/menu"},
 {title: 'MENU', description: "Te manda el menu del Bot", rowId:"/menu"},
 {title: 'MENU', description: "Te manda el menu del Bot", rowId:"/menu"},
@@ -102,4 +101,3 @@ await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage
 handler.command = /^wamenu$/i
 handler.fail = null
 module.exports = handler
-*/
