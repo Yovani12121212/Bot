@@ -7,7 +7,7 @@ let handler  = async (m, { conn, text }) => {
  try {
   if (!text) throw '*Uhm.. y el texto?*'
   if (text) {
-   //await m.reply('*_Aguarde un momento..._*')
+   await m.reply('*_Aguarde un momento..._*')
     let img = await (await fetch('https://leyscoders-api.herokuapp.com/api/textto-image?text=' + encodeURIComponent(text))).buffer()
     if (!img) throw img
     let stiker = await sticker(img, false, 'TTP', 'MIMIN')
