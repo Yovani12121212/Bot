@@ -5,7 +5,7 @@ let util = require('util')
 let { performance } = require('perf_hooks')
 let { sizeFormatter } = require('human-readable')
 let format = sizeFormatter({
-  std: 'JEDEC', // 'SI' (default) | 'IEC' | 'JEDEC'
+  std: 'JEDEC', 'SI' (default) | 'IEC' | 'JEDEC'
   decimalPlaces: 2,
   keepTrailingZeroes: false,
   render: (literal, symbol) => `${literal} ${symbol}B`,
@@ -43,12 +43,12 @@ let handler = async (m, { conn, usedPrefix }) => {
     }
   })
   let old = performance.now()
-  //await m.reply('_Realizando test_')
+  await m.reply('_Realizando test_')
   let neww = performance.now()
   let totaljadibot = [...new Set([...global.conns.filter(conn => conn.user && conn.state !== 'close').map(conn => conn.user)])]
   let speed = neww - old
   let info = `
-╠═〘 *Informacion del Bot* 〙 ═
+╠═〘 *Informacion de NixiSystem* 〙 ═
 ╠
 ╠➥ [🤴🏻] Creador de Sky : *TroyanWolf*
 ╠➥ [#️⃣] Numero del creador: *+54 9 3436 47-5663*
@@ -69,8 +69,8 @@ let handler = async (m, { conn, usedPrefix }) => {
 `.trim() 
 conn.sendMessage(m.chat, info, MessageType.text, { quoted: { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net', fromMe: false }, message: { "imageMessage": { "mimetype": "image/jpeg", "caption": '🔥 THE SHADOW BROKERS - BOT 🔥', "jpegThumbnail": fs.readFileSync(`./Menu2.jpg`)}}}})
 }
-//handler.help = ['ping', 'speed']
-//handler.tags = ['info', 'tools']
+handler.help = ['ping', 'speed']
+handler.tags = ['info', 'tools']
 
 handler.command = /^(infobot)$/i
 
