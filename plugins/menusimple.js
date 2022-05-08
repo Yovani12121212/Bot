@@ -13,8 +13,20 @@ let { min, xp, max } = levelling.xpRange(level, global.multiplier)
 let username = conn.getName(who)
 let str = `
 ╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
+║═ *POWERED NIXISYSTEM by Mx*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ║➤ *✨𝗛ola, ${username}!!*
+║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+║➤ *Creador de Sky: Mx* 
+║➤ *Numero del creador:* *wa.me/5493436475663 (No Bot)*
+║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+║ *Sky & Nixi estan gracias*
+║ *a mi amorcito, ella fue*
+║  *la creadora de mis sueños*
+║         . <3  .
+║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+║➤ SkyV1 & NixiSystem by Mx
+║➤ Lobos de Troya by T.w.
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ╰══╡✯✯✯✯✯✯✯✯╞══╯
 ┏━━━━━━━━━━━━━┓
