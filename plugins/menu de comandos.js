@@ -8,7 +8,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 let pp = './Menu2.jpg'
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let username = conn.getName(who)
-//let vn = './media/mariana.mp3'
+let vn = './media/mariana.mp3'
 let menu =`
 ╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
 ║═ *POWERED NIXISYSTEM by Mx*
@@ -17,7 +17,13 @@ let menu =`
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ║➤ *Creador de Sky: Mx* 
 ║➤ *Numero del creador:* *wa.me/5493436475663 (No Bot)*
-║➤ *PayPal:*
+║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+║ *Sky & Nixi estan gracias*
+║ *a mi amorcito, ella fue*
+║  *la creadora de mis sueños*
+║         . <3  .
+║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+║➤ SkyV1 & NixiSystem by Mx
 ║➤ Lobos de Troya by T.w.
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ╰══╡✯✯✯✯✯✯✯✯╞══╯
