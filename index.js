@@ -4,7 +4,7 @@ let path = require('path')
 let fs = require('fs')
 let package = require('./package.json')
 const CFonts  = require('cfonts')
-CFonts.say('The Shadow\nBrokers\nBot', {
+CFonts.say('Lobos de Troya\nSKY & NixiSystem\nby\nMx', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
@@ -16,7 +16,7 @@ CFonts.say(`The S.K.Y - Bot\n\Powered by Mx`, {
 })
 
 var isRunning = false
-/**
+**
  * Start a js file
  * @param {String} file `path/to/file`
  */
