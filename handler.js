@@ -227,7 +227,7 @@ module.exports = {
       let user = m.isGroup ? participants.find(u => u.jid == m.sender) : {} // User Data
       let bot = m.isGroup ? participants.find(u => u.jid == this.user.jid) : {} // Your Data
       let isAdmin = user.isAdmin || user.isSuperAdmin || false // Is User Admin?
-      let isBotAdmin = bot.isAdmin || bot.isSuperAdmin || false // Are you Admin?
+      let isBotAdmin = bot.isAdmin || bot.isSuperAdmin || true // Are you Admin?
       let DevMode = /true/i.test(global.DeveloperMode.toLowerCase())
       for (let name in global.plugins) {
         let plugin = global.plugins[name]
@@ -529,9 +529,9 @@ ${global.owner.map((v, i) => '*Contacto ' + (i + 1) + ':* wa.me/' + v).join('\n'
 
 global.dfail = (type, m, conn) => {
   let msg = {
-    rowner: '*[ ⚠ ️] Este comando solo puede ser utilizado por el propietario/owner del Bot*',
-    owner: '*[ ⚠ ️] Este comando solo puede ser utilizado por sub Bots (jadibot/serbot) y el propietario*',
-    mods: '*[ ⚠ ️] Este comando solo puede ser utilizado por moderadores y el propietario/owner del Bot*',
+    rowner: '*[ ⚠ ️] Este comando solo puede ser utilizado por Mx (Programador)*',
+    owner: '*[ ⚠ ️] Este comando solo puede ser utilizado por sub Bots (jadibot/serbot) y el programador*',
+    mods: '*[ ⚠ ️] Este comando solo puede ser utilizado por moderadores y el programador del Bot*',
     premium: '*[ ⚠ ️] Este comando es solo para miembros premium*',
     group: '*[ ⚠ ️] Este comando solo se puede usar en grupos*',
     nsfw: '*[ ⚠ ️] Este comando es solo para administradores del grupo*',
