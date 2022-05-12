@@ -16,7 +16,7 @@ CFonts.say(`The S.K.Y - Bot\n\Powered by Mx`, {
 })
 
 var isRunning = false
-**
+/**
  * Start a js file
  * @param {String} file `path/to/file`
  */
