@@ -1,5 +1,5 @@
 global.DeveloperMode = 'false' //true Or false 
-global.owner = ['5493704583368'] //Cambia los numeros por tu o tus numeros a los cuales te comtactaran y gestionaras el Bot
+global.owner = ['5493704583368' , '5493436617283'] //Cambia los numeros por tu o tus numeros a los cuales te comtactaran y gestionaras el Bot
 global.mods = ['5219991402134'] //No tiene utilidad
 global.prems = ['5219996125657' , '5219992095479', '972557048356'] //Podra usar algunos comandos del apartado de propietario
 
