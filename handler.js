@@ -482,11 +482,11 @@ ${global.owner.map((v, i) => '*Contacto ' + (i + 1) + ':* wa.me/' + v).join('\n'
     let chat = global.DATABASE._data.chats[m.key.remoteJid]
     if (chat.delete) return
     await this.reply(m.key.remoteJid, `
-━━━━⬣  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀  ⬣━━━━
+━━━━⬣  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀 MX ⬣━━━━
 *▢ Nombre:* @${m.participant.split`@`[0]}
 *▢ Enviando el mensaje..*
 *▢ Para desactivar esta función envie el comando:* #disable delete
-━━━━⬣  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀  ⬣━━━━
+━━━━⬣  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀 MX ⬣━━━━
 `.trim(), m.message, {
       contextInfo: {
         mentionedJid: [m.participant]
