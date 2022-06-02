@@ -5,7 +5,7 @@ let util = require('util')
 let { performance } = require('perf_hooks')
 let { sizeFormatter } = require('human-readable')
 let format = sizeFormatter({
-  std: 'JEDEC', 'SI' (default) | 'IEC' | 'JEDEC'
+  // std: 'JEDEC', 'SI' (default) | 'IEC' | 'JEDEC'
   decimalPlaces: 2,
   keepTrailingZeroes: false,
   render: (literal, symbol) => `${literal} ${symbol}B`,
