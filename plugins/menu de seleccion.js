@@ -4,7 +4,7 @@ let { MessageType } = require('@adiwajshing/baileys')
 let handler = async (m, { conn, participants, args }) => {
 let vn = './media/menu.mp3'
 const rows = [
-LO QUE SE MUESTRA + DESCRIPCION + COMANDO 
+// LO QUE SE MUESTRA + DESCRIPCION + COMANDO 
 {title: 'MENU', description: "Te manda el menu del Bot", rowId:"/menu"},
 {title: 'MENU', description: "Te manda el menu del Bot", rowId:"/menu"},
 {title: 'MENU', description: "Te manda el menu del Bot", rowId:"/menu"},
