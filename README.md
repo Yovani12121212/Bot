@@ -1,14 +1,14 @@
-# **🔥 𝗧𝗵𝗲 𝗦𝗵𝗮𝗱𝗼𝘄 𝗕𝗿𝗼𝗸𝗲𝗿𝘀 - 𝗕𝗼𝘁 🔥**
 
-## El Bot ya no recibira mas actualizaciones
 
-### `NECESITAS AYUDA?, CONTACTAME`
-<a href="http://wa.me/5219992095479" target="blank"><img src="https://img.shields.io/badge/BRUNO_SOBRINO-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
-> NO BOT
-### `GRUPOS OFICIALES DEL BOT`
-[![Grupo de WhatsApp](https://img.shields.io/badge/GRUPO_OFICIAL_1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/JlomZPEgo3bLmzjGUYPfyJ)
-[![Grupo de WhatsApp](https://img.shields.io/badge/GRUPO_OFICIAL_2-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/DbXBmsydWBE1ZN3EoY0hRs)
-[![Grupo de WhatsApp](https://img.shields.io/badge/GRUPO_OFICIAL_3-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/BW0P22xx7EGBTdH5IM851F)
+
+
+
+
+
+
+
+
+
 [![Grupo de WhatsApp](https://img.shields.io/badge/GRUPO_OFICIAL_4-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/CjexkGVr37J6GuSdDVAHzC)
 [![Grupo de WhatsApp](https://img.shields.io/badge/GRUPO_OFICIAL_5-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/H7NUXdrGlFg20ae3bqgwlb)
 [![Grupo de WhatsApp](https://img.shields.io/badge/GRUPO_OFICIAL_6-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/GvrLSUSzVuT9P17CKfdxDa)
